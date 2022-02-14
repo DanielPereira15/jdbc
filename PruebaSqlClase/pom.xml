@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>PruebaSqlClase</groupId>
+	<artifactId>PruebaSqlClase</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>PruebaSqlClase</name>
+	<dependencies>
+                <!-- https://mvnrepository.com/artifact/org.modelmapper/modelmapper -->
+                <dependency>
+                        <groupId>org.modelmapper</groupId>
+                        <artifactId>modelmapper</artifactId>
+                        <version>2.3.9</version>
+                </dependency>
+                <dependency>
+                        <groupId>org.junit.jupiter</groupId>
+                        <artifactId>junit-jupiter-engine</artifactId>
+                        <version>5.7.0</version>
+                        <scope>test</scope>
+                </dependency>
+                <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+                <dependency>
+                        <groupId>org.projectlombok</groupId>
+                        <artifactId>lombok</artifactId>
+                        <version>1.18.18</version>
+                        <scope>provided</scope>
+                </dependency>
+                <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+                <dependency>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-api</artifactId>
+                        <version>1.7.30</version>
+                </dependency>
+                <dependency>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-jdk14</artifactId>
+                        <version>1.7.30</version>
+                </dependency>
+                <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+                <dependency>
+                        <groupId>org.hibernate</groupId>
+                        <artifactId>hibernate-core</artifactId>
+                        <version>5.4.24.Final</version>
+                </dependency>
+                <dependency>
+                        <groupId>net.ttddyy</groupId>
+                        <artifactId>datasource-proxy</artifactId>
+                        <version>1.7</version>
+                </dependency>
+                <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+                <dependency>
+                        <groupId>com.h2database</groupId>
+                        <artifactId>h2</artifactId>
+                        <version>1.4.200</version>
+                </dependency>
+                <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+                <dependency>
+                        <groupId>mysql</groupId>
+                        <artifactId>mysql-connector-java</artifactId>
+                        <version>8.0.22</version>
+                </dependency>
+        </dependencies>
+</project>
